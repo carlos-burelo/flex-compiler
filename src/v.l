@@ -1,9 +1,8 @@
 %{
     #include <stdlib.h>
     #include <string.h>
-    #include "chicken.h"
-    #include "chicken.tab.h"
-
+    #include "v.h"
+    #include "v.tab.h"
     void yyerror(char *s);
     int lineno = 0;
 %}
@@ -12,7 +11,7 @@ ID      [a-zA-Z][a-z0-9A-Z_]*
 EXPO    [Ee][-+]?[0-9]+
 
 %%
-"#".*   /* Single-line comment */
+"#".*
 
 [0-9]+|[0-9]+"."[0-9]*{EXPO}?|"."?[0-9]+{EXPO}? {
     yylval.dValue = atof(yytext);
@@ -22,7 +21,7 @@ EXPO    [Ee][-+]?[0-9]+
 \"[^"\n]*["\n] {
     yylval.sValue = strdup(yytext+1);
     if (yylval.sValue[yyleng-2] != '"')
-        yyerror("improperly terminated string");
+        yyerror("Cadena no cerrada");
     else {
         yylval.sValue[yyleng-2] = 0;
         return STRING;

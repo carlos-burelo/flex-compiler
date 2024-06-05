@@ -1,0 +1,15 @@
+a := 11;
+b := 21.49;
+c := -21.3e+4;
+
+print "Valor de a: ";
+print a;
+print "\n";
+
+print "Valor de b: ";
+print b;
+print "\n";
+
+print "Valor de c: ";
+print c;
+print "\n";

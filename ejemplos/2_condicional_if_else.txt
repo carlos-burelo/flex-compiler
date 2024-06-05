@@ -1,0 +1,10 @@
+numero := 20;
+
+if (numero > 18) then {
+    print "El numero es mayor a 18\n";
+    print numero;
+}
+else {
+    print "El numero es menor a 18\n";
+    print numero;
+}
