@@ -3,16 +3,16 @@ b := -11;
 c := 21;
 d := 0;
 
-if not d then {
-    if a > b and a > c or b < c then print "Declaracion 1: Verdadero\n";
-    else print "Declaracion 1: Falso\n";
+si no d entonces {
+    si a > b y a > c o b < c entonces imprimir "Declaracion 1: Verdadero\n";
+    else imprimir "Declaracion 1: Falso\n";
 }
 
-if 0 or 1 and 1 then 
-    print "Declaracion 2\n";
+si 0 o 1 y 1 entonces 
+    imprimir "Declaracion 2\n";
 
-if 1 and 1 and 0 then 
-    print "Declaracion 3\n";
+si 1 y 1 y 0 entonces 
+    imprimir "Declaracion 3\n";
 
-if 1 and 1 and not 0 then
-    print "Declaracion 4\n";
+si 1 y 1 y no 0 entonces
+    imprimir "Declaracion 4\n";

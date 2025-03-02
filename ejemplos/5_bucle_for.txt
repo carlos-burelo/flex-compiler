@@ -1,12 +1,12 @@
 numero := 0;
-for numero : (-10, 0, 1) then {
-    print numero;
-    if numero % 2 = 0 then print " : es PAR\n";
-    else print " : es IMPAR\n";
+for numero : (-10, 0, 1) entonces {
+    imprimir numero;
+    si numero % 2 = 0 entonces imprimir " : es PAR\n";
+    else imprimir " : es IMPAR\n";
 }
 
-for numero : (10, -1, -1) then {
-    print numero;
-    if numero % 2 = 0 then print " : es PAR\n";
-    else print " : es IMPAR\n";
+for numero : (10, -1, -1) entonces {
+    imprimir numero;
+    si numero % 2 = 0 entonces imprimir " : es PAR\n";
+    else imprimir " : es IMPAR\n";
 }

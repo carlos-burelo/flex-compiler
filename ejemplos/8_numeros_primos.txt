@@ -1,18 +1,18 @@
 numero := 2;
-for numero : (numero, 20, 1) then {
+for numero : (numero, 20, 1) entonces {
     flag := 1;
     i := 2;
-    while i <= numero/2 then {
-        if numero % i = 0 then {
-            print numero;
-            print ": NO ES PRIMO\n";
+    while i <= numero/2 entonces {
+        si numero % i = 0 entonces {
+            imprimir numero;
+            imprimir ": NO ES PRIMO\n";
             flag := 0;
             i := numero;
         }
         i := i + 1;
     }
-    if flag then {
-        print numero;
-        print ": ES PRIMO\n";
+    si flag entonces {
+        imprimir numero;
+        imprimir ": ES PRIMO\n";
     }
 }

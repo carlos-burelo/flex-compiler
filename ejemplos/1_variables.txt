@@ -2,14 +2,14 @@ a := 11;
 b := 21.49;
 c := -21.3e+4;
 
-print "Valor de a: ";
-print a;
-print "\n";
+imprimir "Valor de a: ";
+imprimir a;
+imprimir "\n";
 
-print "Valor de b: ";
-print b;
-print "\n";
+imprimir "Valor de b: ";
+imprimir b;
+imprimir "\n";
 
-print "Valor de c: ";
-print c;
-print "\n";
+imprimir "Valor de c: ";
+imprimir c;
+imprimir "\n";

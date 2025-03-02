@@ -1,10 +1,10 @@
 numero := 20;
 
-if (numero > 18) then {
-    print "El numero es mayor a 18\n";
-    print numero;
+si (numero > 18) entonces {
+    imprimir "El numero es mayor a 18\n";
+    imprimir numero;
 }
 else {
-    print "El numero es menor a 18\n";
-    print numero;
+    imprimir "El numero es menor a 18\n";
+    imprimir numero;
 }

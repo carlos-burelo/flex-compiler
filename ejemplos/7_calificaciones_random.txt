@@ -1,17 +1,17 @@
 i := 0;
-while i < 10 then {
-    print "Caso: ";
-    print i+1;
-    print "\n";
+while i < 10 entonces {
+    imprimir "Caso: ";
+    imprimir i+1;
+    imprimir "\n";
     calificacion := random(0, 100);
-    print "Calificacion: ";
-    print calificacion;
-    print "\n";
-    if calificacion > 0 and calificacion < 60 then print "RESULTADO: REPROBATORIO\n";
-    else if calificacion >= 60 and calificacion < 70 then print "RESULTADO: PASABLE\n";
-    else if calificacion >= 70 and calificacion < 75 then print "RESULTADO: ACEPTABLE\n";
-    else if calificacion >= 75 and calificacion < 80 then print "RESULTADO: BUENO\n";
-    else if calificacion >= 80 and calificacion <= 100 then print "RESULTADO: EXCELENTE\n";
-    else print "Invalid calificacion";
+    imprimir "Calificacion: ";
+    imprimir calificacion;
+    imprimir "\n";
+    si calificacion > 0 y calificacion < 60 entonces imprimir "RESULTADO: REPROBATORIO\n";
+    else si calificacion >= 60 y calificacion < 70 entonces imprimir "RESULTADO: PASABLE\n";
+    else si calificacion >= 70 y calificacion < 75 entonces imprimir "RESULTADO: ACEPTABLE\n";
+    else si calificacion >= 75 y calificacion < 80 entonces imprimir "RESULTADO: BUENO\n";
+    else si calificacion >= 80 y calificacion <= 100 entonces imprimir "RESULTADO: EXCELENTE\n";
+    else imprimir "Invalid calificacion";
     i := i + 1;
 }

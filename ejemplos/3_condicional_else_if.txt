@@ -1,12 +1,12 @@
 numero := 79;
 
-print "Numero: ";
-print numero;
-print "\n";
+imprimir "Numero: ";
+imprimir numero;
+imprimir "\n";
 
-if numero > 10 and numero < 60 then print "F";
-else if numero >= 60 and numero < 70 then print "B\n";
-else if numero >= 70 and numero < 75 then print "B+\n";
-else if numero >= 75 and numero < 80 then print "A-\n";
-else if numero >= 80 and numero <= 100 then print "A+\n";
-else print "Numero invalido\n";
+si numero > 10 y numero < 60 entonces imprimir "F";
+else si numero >= 60 y numero < 70 entonces imprimir "B\n";
+else si numero >= 70 y numero < 75 entonces imprimir "B+\n";
+else si numero >= 75 y numero < 80 entonces imprimir "A-\n";
+else si numero >= 80 y numero <= 100 entonces imprimir "A+\n";
+else imprimir "Numero invalido\n";

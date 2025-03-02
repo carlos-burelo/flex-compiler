@@ -3,9 +3,9 @@ inicio := -10;
 limite := 10;
 
 numero := inicio;
-while numero <= limite then {
-    print numero;
-    if numero % 2 = 0 then print " : es PAR\n";
-    else print " : is IMPAR\n";
+while numero <= limite entonces {
+    imprimir numero;
+    si numero % 2 = 0 entonces imprimir " : es PAR\n";
+    else imprimir " : is IMPAR\n";
     numero := numero + 1;
 }

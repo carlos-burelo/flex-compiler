@@ -32,22 +32,22 @@ EXPO    [Ee][-+]?[0-9]+
     return *yytext;
 }
 
-":="    return ASSIGN;
 ">="    return GE;
 "<="    return LE;
 "!="    return NE;
+":="    return ASSIGN;
 "while" return WHILE;
 "for"   return FOR;
 "si"    return IF;
 "else"  return ELSE;
-"then"  return THEN;
-"and"   return AND;
-"or"    return OR;
-"not"   return NOT;
+"entonces"  return THEN;
+"y"   return AND;
+"o"    return OR;
+"no"   return NOT;
 
-"print" return PRINT;
+"imprimir" return PRINT;
 "scan"  return SCAN;
-"exit"  return EXIT;
+"salir"  return EXIT;
 
 "PI"    return PI;
 
