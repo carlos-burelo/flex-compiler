@@ -7,7 +7,7 @@
     int lineno = 0;
 %}
 
-IDENTIFICADOR      [a-zA-Z][a-z0-9A-Z_]*
+ID      [a-zA-Z][a-z0-9A-Z_]*
 EXPO    [Ee][-+]?[0-9]+
 
 %%
@@ -38,7 +38,7 @@ EXPO    [Ee][-+]?[0-9]+
 "!="    return NE;
 "while" return WHILE;
 "for"   return FOR;
-"si"    return IF;
+"if"    return IF;
 "else"  return ELSE;
 "then"  return THEN;
 "and"   return AND;
@@ -65,7 +65,7 @@ EXPO    [Ee][-+]?[0-9]+
 "tan"       return TAN;
 "atan"      return ATAN;
 
-{IDENTIFICADOR} {
+{ID} {
     yylval.vName = strdup(yytext);
     return VARIABLE;
 }
